@@ -1,6 +1,4 @@
 import random
-
-
 class Cuestionador:
 
     def __init__(self):        
@@ -12,7 +10,7 @@ class Cuestionador:
         self.answers=[
             "Círculo imaginario en esfera celeste",
             "90 grados respecto al horizonte",
-            12
+            "12"
         ]
 
     def jugar(self):
@@ -27,10 +25,10 @@ class Cuestionador:
 
         #Verificar si la respuesta es correcta
 
-        if respuesta== self.answers[number]:
+        if respuesta == self.answers[number]:
             print("Eres genial, mi perrito!!!")
         else:
-            print("Deje de pensar que sus pap{as siempre lo van a mantener!!!")
+            print("Deje de pensar que sus papás siempre lo van a mantener!!!")
 
 
 
